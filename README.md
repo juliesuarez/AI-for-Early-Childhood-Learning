@@ -63,3 +63,10 @@ Click Create Web Service.
 
 # Prompt Used: Education: Provides AI-guided learning modules for parents on early childhood education
 # AI Used: Gemini
+
+Built with ❤️ by:
+Name: Juliet Nakawesi from Uganda
+Role: Software Developer
+
+Name: Stacy Njoga from Kenya
+Role: Business developer

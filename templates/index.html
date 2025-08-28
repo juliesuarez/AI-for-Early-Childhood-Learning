@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParentPal AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ParentPal AI 🤖</h1>
+            <p>Your AI partner in early childhood education.</p>
+        </header>
+        
+        <main>
+            <div class="controls">
+                <div class="select-group">
+                    <label for="age-range">Child's Age:</label>
+                    <select id="age-range">
+                        <option value="0-1 years">0-1 years</option>
+                        <option value="1-2 years">1-2 years</option>
+                        <option value="2-3 years">2-3 years</option>
+                        <option value="3-5 years">3-5 years</option>
+                    </select>
+                </div>
+                <div class="select-group">
+                    <label for="topic">Learning Topic:</label>
+                    <select id="topic">
+                        <option value="Motor Skills">Motor Skills</option>
+                        <option value="Language Development">Language Development</option>
+                        <option value="Problem Solving">Problem Solving</option>
+                        <option value="Social-Emotional Skills">Social-Emotional Skills</option>
+                    </select>
+                </div>
+                <button id="get-advice-btn">Get Advice!</button>
+            </div>
+            
+            <div id="result-container" class="hidden">
+                <h2>Here's a tip for you!</h2>
+                <div id="module-content">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

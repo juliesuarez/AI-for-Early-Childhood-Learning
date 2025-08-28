@@ -40,3 +40,6 @@ To run this project locally, follow these steps:
     python app.py
     ```
     The application will be available at `http://127.0.0.1:5000`.
+
+# Prompt Used: Education: Provides AI-guided learning modules for parents on early childhood education
+# AI Used: Gemini

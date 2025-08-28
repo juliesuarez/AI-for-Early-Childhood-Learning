@@ -1,6 +1,7 @@
 // static/script.js
 
 document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('year').textContent = new Date().getFullYear();
     const getAdviceBtn = document.getElementById('get-advice-btn');
     const ageRangeSelect = document.getElementById('age-range');
     const topicSelect = document.getElementById('topic');

@@ -21,7 +21,7 @@ except AttributeError:
     print("Error: Gemini API key not found. Please set the GEMINI_API_KEY environment variable.")
     model = None
 
-YOUR_DOMAIN = 'http://127.0.0.1:5000'
+YOUR_DOMAIN = 'https://ai-for-early-childhood-learning.onrender.com/'
 
 # Route for the main page
 @app.route('/')
